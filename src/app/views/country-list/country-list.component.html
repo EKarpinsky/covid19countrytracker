@@ -1,0 +1,20 @@
+<div id='accordion-container'>
+  <h1 class='heading'>Top 10 Countries by COVID-19 Cases</h1>
+  <mat-accordion class='example-headers-align' multi>
+    <mat-expansion-panel *ngFor='let country of countryList'>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <span [ngClass]="'flag-icon flag-icon-'+country.CountryCode.toLowerCase()"></span>
+          {{country.Country}}
+        </mat-panel-title>
+        <mat-panel-description>
+          <strong>Total Confirmed Cases:</strong>&nbsp;{{country.TotalConfirmed}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div><strong>Total Deaths: </strong>{{country.TotalDeaths}}</div>
+      <div><strong>Total Recovered Cases: </strong>{{country.TotalRecovered}}</div>
+
+    </mat-expansion-panel>
+
+  </mat-accordion>
+</div>

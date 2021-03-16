@@ -1,6 +1,12 @@
-# CovidCountryTracker
+# Covid Country Tracker
+###### by Eli Karpinsky
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+Developed and tested with Node.js 10.22 and Angular 11.2.5.
+This application requires Node.js and Angular CLI to work.
+
+An expandable list of the top 10 countries is displayed on the screen. Click on any of the countries to see more information.
+
+![img.png](img.png)
 
 ## Development server
 

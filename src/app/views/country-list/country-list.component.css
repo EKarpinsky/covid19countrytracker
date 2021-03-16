@@ -1,0 +1,32 @@
+.country-card {
+  margin: 2rem;
+  max-width: 20rem;
+}
+
+::ng-deep .mat-expansion-panel-header-title {
+  min-width: 17rem;
+}
+
+::ng-deep .mat-expansion-panel {
+  max-width: 60rem;
+}
+
+#accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+::ng-deep .mat-accordion, ::ng-deep .mat-expansion-panel {
+  min-width: 45rem;
+}
+
+.heading {
+  font-size: 32px;
+  margin: 2rem;
+}
+
+.flag-icon {
+  margin-right: 1rem;
+}
